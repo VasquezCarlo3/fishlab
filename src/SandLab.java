@@ -22,6 +22,7 @@ public class SandLab
   public static final int WOOD = 5;
   public static final int FROG = 6;
   public static final int CLEAR = 7;
+  public static final int FISH = 8;
 
   //The save file
   private static final String FILE = "save.txt";
@@ -42,6 +43,7 @@ public class SandLab
     names[WOOD] = "Wood";
     names[FROG] = "Infestation";
     names[CLEAR] = "Clear";
+    names[FISH] = "Fish";
 
     grid = new Particle[numRows][numCols];
 
